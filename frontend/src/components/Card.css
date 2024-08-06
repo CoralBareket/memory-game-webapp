@@ -1,9 +1,15 @@
+/* Card.css */
 .card {
   width: 15%;
   height: 30%;
   margin: 0.6%;
   perspective: 1000px;
   display: inline-block;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-inner {
@@ -33,7 +39,7 @@
 }
 
 .card-front {
-  background-color: rgb(196, 233, 247);
+  background-color: #fffae6;
   transform: rotateY(180deg);
 }
 
