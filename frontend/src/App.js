@@ -15,9 +15,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Memory Game</h1>
-      </header>
+      {!gameStarted && (
+        <header className="App-header">
+          <h1>Memory Game</h1>
+        </header>
+      )}
       {!gameStarted ? (
         <form onSubmit={startGame}>
           <label>
