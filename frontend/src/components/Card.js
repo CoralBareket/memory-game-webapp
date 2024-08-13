@@ -2,18 +2,18 @@ import React from 'react';
 import './Card.css';
 
 const cardColors = {
-  '😍': '#ffadad',
-  '🤪': '#ffd6a5',
-  '🌟': '#fdffb6',
-  '🍀': '#caffbf',
-  '🦄': '#9bf6ff',
-  '🎉': '#a0c4ff',
-  '🚀': '#bdb2ff',
-  '🐱': '#ffc6ff',
-  '🍕': '#fffffc',
-  '🏀': '#ffadad',
-  '🌈': '#ffd6a5',
-  '🎵': '#fdffb6'
+  '🥑': '#FFCCCB', // Light Red
+  '🤪': '#FFEB99', // Light Yellow
+  '🌟': '#B2FF66', // Light Green
+  '🍀': '#C5E3BF', // Mint Green
+  '🦄': '#B5EAD7', // Pale Turquoise
+  '🎯': '#B2D8FF', // Light Blue
+  '🚀': '#D3B2FF', // Lavender
+  '🐱': '#FFC8DD', // Light Pink
+  '🍕': '#FFD699', // Light Peach
+  '🏀': '#FFABAB', // Light Coral
+  '🌈': '#FFCCFF', // Light Magenta
+  '🎵': '#CCE6FF'  // Light Sky Blue
 };
 
 function Card({ id, type, flipped, onClick }) {
