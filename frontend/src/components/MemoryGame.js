@@ -96,7 +96,7 @@ function MemoryGame({ playerName }) {
     <div className="memory-game-container">
       <div className="game-info">
         <h2>Player: {playerName}</h2>
-        <h2>Current Turn: {gameState.currentTurn}</h2>
+        <h2>Current Turn: {gameState.currentTurn || "Waiting for opponent..."}</h2>
         <h2>Time: {Math.floor(timeElapsed / 60)}:{(timeElapsed % 60).toString().padStart(2, '0')}</h2>
         <h2>Your Score: {gameState.scores[playerName]}</h2>
       </div>
